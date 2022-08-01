@@ -1,0 +1,93 @@
+.footer{
+    background-image: url(https://newkit.moxcreative.com/breadmeal/wp-content/uploads/sites/6/2022/07/bread-and-bakery.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h2{
+      font-size: 20px;
+    }
+    .top{
+        @media screen  and (min-width:1024px ){
+           display: flex;
+           justify-content: space-between;
+
+        }
+    }
+    
+        color: white;
+        padding: 60px;
+       .about{
+        @media screen  and (max-width:1024px ){
+            width: 100%;
+            text-align: center;
+
+        }
+       }
+        .social{
+            @extend %socials;
+          text-align: center;
+          margin: 2px;
+        
+            
+            
+        }
+        }
+        .contacts{
+            i{
+             @extend %chevron;
+            }
+        
+             
+              
+
+        }
+
+        .company{
+            i{
+                @extend %chevron;
+            }
+            @media screen  and (max-width:1024px ){
+               
+               
+
+        }
+        }
+    
+    .about{
+
+        img{
+            color: white;
+        }
+        p{
+            font-size: 13px;
+            padding: 5px;
+        }
+        @media screen  and (max-width:1024px ){
+           
+          
+
+    }
+    }
+
+    .bottom{
+        color: white;
+        border-top: 1px solid #FFF6F13D;
+        padding: 50px;
+        .privacy{
+            ul{
+                li{
+                    padding: 6px;
+                    i{
+                        color: #e46e49 ;
+                        font-size: 11px;
+                        margin: 2px;
+                    }
+              
+                }
+            }
+        }
+
+    }

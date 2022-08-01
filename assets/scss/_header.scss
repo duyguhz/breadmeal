@@ -1,0 +1,72 @@
+header{
+  
+    
+    .logo-nav-contact{
+      .dots{
+        display: none;
+        position: absolute;
+    
+      }
+      .nav-links{
+     
+
+        ul{
+            
+
+            li{
+                a{
+                  color: #7e5a4e;
+                }
+            }
+        }
+      }
+      
+        .logo{
+            width: 230px;
+            img{
+                width: 180px;
+            }
+        }
+        .order{
+            width: 230px;
+            height: 70px;
+            background-color: #7e5a4e;
+            color: white;
+            .phone-icon{
+                border: 2px solid white;
+                border-radius: 50%;
+                text-align: center;
+                width: 42px;
+                height: 42px;
+              position: relative;
+            
+             i{
+                position: absolute;
+               top: 12px;
+               right: 10px;
+             }
+
+            }
+            .order-text{
+                span{
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+        }
+    
+
+
+    }
+   @media screen and(max-width:1024px) {
+  
+
+    .nav-links{
+        display: none;
+    }
+   .dots{
+    display: flex;
+   }
+   }
+}
+
